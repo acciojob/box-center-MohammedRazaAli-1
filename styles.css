@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+div{
+	align-item:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	height:200px;
+	width:200px;
+	background-color:lightblue;
+	border:2px solid black;
+}
+span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
